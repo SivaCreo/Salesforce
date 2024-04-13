@@ -1,14 +1,14 @@
 <html>
-<body>
-<script type='text/javascript'>
+  <body>
+  <script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
 			embeddedservice_bootstrap.init(
 				'00DDw000005Xcu4',
-				'ARLY_Customer_Support_UAT',
-				'https://arly--uat.sandbox.my.site.com/ESWARLYCustomerSupport1712617937563',
+				'Web_Chat_for_GitHub',
+				'https://arly--uat.sandbox.my.site.com/ESWWebChatforGitHub1712987962268',
 				{
 					scrt2URL: 'https://arly--uat.sandbox.my.salesforce-scrt.com'
 				}
@@ -18,6 +18,6 @@
 		}
 	};
 </script>
-<script type='text/javascript' src='https://arly--uat.sandbox.my.site.com/ESWARLYCustomerSupport1712617937563/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://arly--uat.sandbox.my.site.com/ESWWebChatforGitHub1712987962268/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 </body>
-</html>
+  </html>
