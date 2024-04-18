@@ -6,11 +6,11 @@
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
 			embeddedservice_bootstrap.init(
-				'00DDw000005Xcu4',
-				'Web_Chat_for_GitHub',
-				'https://arly--uat.sandbox.my.site.com/ESWWebChatforGitHub1712987962268',
+				'00DHp000003WErm',
+				'ARLY_Customer_Support',
+				'https://arly.my.site.com/ESWARLYCustomerSupport1709967206643',
 				{
-					scrt2URL: 'https://arly--uat.sandbox.my.salesforce-scrt.com'
+					scrt2URL: 'https://arly.my.salesforce-scrt.com'
 				}
 			);
 		} catch (err) {
@@ -18,6 +18,6 @@
 		}
 	};
 </script>
-<script type='text/javascript' src='https://arly--uat.sandbox.my.site.com/ESWWebChatforGitHub1712987962268/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://arly.my.site.com/ESWARLYCustomerSupport1709967206643/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 </body>
   </html>
